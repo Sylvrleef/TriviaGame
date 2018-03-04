@@ -1,0 +1,57 @@
+body {
+    background-color: steelblue
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p {
+    font-size: 50px;
+    margin: 0px;
+    text-align: center;
+}
+
+button {
+    font-size: 20px;
+    background-color: steelblue;
+    text-align: center;
+    border-radius: 5px;
+    margin: 10px;
+    color: white;
+}
+
+.play {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 30px;
+    height: 50px;
+    width: 250px;
+    background-color: steelblue;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+}
+
+#title {
+    margin-bottom: 20px
+}
+
+#content {
+    display: block;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    width: 75%;
+    padding-bottom: 50px;
+    text-align: center;
+    font-size: 30px;
+}
+
+#playAgain {
+    visibility: hidden;
+}
