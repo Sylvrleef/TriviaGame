@@ -125,7 +125,7 @@ $.fn.trivia = function() {
         setTimeout(function() {
             t.cleanUp();
             t.ask();
-        }, 1000)
+        }, 1000);
     };
     t.cleanUp = function() {
         $('div.clear').each(function(item) {
