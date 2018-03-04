@@ -55,3 +55,11 @@ button {
 #playAgain {
     visibility: hidden;
 }
+
+.correct {
+    text-transform: capitalize;
+}
+
+.incorrect {
+    text-transform: capitalize;
+}

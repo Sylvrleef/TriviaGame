@@ -135,7 +135,7 @@ $.fn.trivia = function() {
         $('.incorrect').html('Incorrect answers: ' + t.answers.incorrect);
     };
     t.answer = function(correct) {
-        var string = correct ? 'Correct' : 'Incorrect';
+        var string = correct ? 'correct' : 'incorrect';
         t.answers[string]++;
         $('.' + string).html(string + ' answers: ' + t.answers[string]);
     };
@@ -160,7 +160,7 @@ $('#answer').on('click', 'button', function(e) {
         $('#answer').text("Wrong Answer! The correct answer was: " + correct);
         t.answer(false);
     } else {
-        $('#answer').text("Correct!!! The correct answer was: " + correct);
+        $('#answer').text("Correct!!! The correct answer is: " + correct);
         t.answer(true);
     }
     t.nextQ();
